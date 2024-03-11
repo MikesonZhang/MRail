@@ -1,0 +1,35 @@
+{
+  "name": "mrrail",
+  "author": "MikesonZhang",
+  "description": "MRRail铁路平台，全称MikesonRail，是MikesonZhang的本科毕业设计。启动开发时间2024年2月1日，开发时间一年",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@vitejs/plugin-legacy": "^5.3.1",
+    "axios": "^1.6.7",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.5.5",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "uuid": "^9.0.1",
+    "vue": "^3.3.11",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "sass": "^1.32.10",
+    "sass-loader": "^10.1.0",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.0.8"
+  }
+}
